@@ -6,13 +6,19 @@ Installation (for Linux)
 
 It is important to note that before using RustScan, you must have Nmap installed on your system. Many Linux distributions, such as Kali Linux, come with Nmap by default, but for other distributions you may need to install Nmap separately.
 
+
 We download the .deb extension package from https://github.com/arifsafa/Rustscan-Tool. (rustscan_1.8.0_amd64.deb)
+
 Open terminal.
+
 Go to the directory where the downloaded file is located with the cd command. For example, if the file is in the Downloads folder:
+
 cd ~/Downloads
+
 4. Type the following command and press Enter:
 
 sudo dpkg -i rustscan_1.8.0_amd64.deb
+
 Once the installation is complete, type rustscan in the terminal and press Enter. If the installation is successful, Rustscan's version information will be displayed.
 
 5. Scan:
